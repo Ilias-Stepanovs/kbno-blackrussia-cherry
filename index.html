@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html style="font-family: arial, sans serif">
+<head>
+	<meta charset="utf-8">
+	<title>КБНО BlackRussia</title>
+	<img src="https://media.discordapp.net/attachments/814821533746593802/828653983174361088/1617636854011.png?width=300&height=300" align="left">
+	<link rel="stylesheet" type="text/css" href="kbno.css">
+
+
+	<h1 style="font-family: arial, sans serif" align="center">КОМИТЕТ БЕЗОПАСНОСТИ НИЖЕГОРОДСКОЙ ОБЛАСТИ</h1>
+	<h5 align="center" style="font-family: arial, sans serif">СЛУЖИМ РОССИИ, СЛУЖИМ ЗАКОНУ!</h5>
+	<link rel="stylesheet"  href="KBNO_style.css">
+	<script src="administrator/Desktop/KBNO_script.js"></script>
+	<hr align="center" width="1000000" size="50" color="#6A82FB" id="Line">
+	&emsp;
+</head>
+<body>
+	
+	<table border="1" style="font-family: arial, sans serif" align="right">
+			<thead>
+				
+			<h2 align="center">Мы доступны:</h2>
+
+			<table border="5" style="font-family: arial, sans serif">
+	<thead>
+		<tr><th><b>Тел.</b></th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr><td><em>200244</em></td>
+	</tr>
+</tbody>
+<tbody>
+	<tr><td><em>172271</em></td>
+	</tr>
+</tbody>
+<tbody>
+	<tr><td><em>1134029</em></td>
+	</tr>
+
+</table>
+
+	&emsp;
+
+		<h2 align="center">Для сотрудников</h2>
+		<div align="center">
+ <form>
+  <input type="button" value="Войти в раздел для сотрудников" onClick="Input()" class="but">
+ </form>
+</div>
+
+<script type="text/javascript">
+	function Input(){
+login_ok = false;
+user_name = "";
+password = "";
+user_name = prompt("Логин","");
+user_name = user_name.toLowerCase();
+password = prompt("Пароль","");
+password = password.toLowerCase();
+if (user_name=="kbno2021" && password=="kbno2104") {
+ login_ok = true;
+ window.location = "kbno (2).html";
+}
+if (user_name=="login2" && password=="kbno2104") {
+ login_ok = true;
+ window.location = "";
+}
+
+if (login_ok==false) alert("Неверный логин или пароль!");
+}
+</script>
+
+
+</body>
+</html>
